@@ -37,10 +37,14 @@ Feature 2: Plant Care Scheduling
 Helps users organize watering schedules and keep track of important plant-care activities.
 
 Feature 3: Plant Care Reminders
-Helps users remember when their plants need watering and other care activities, reducing the risk of neglecting their plants.
+Helps users remember when their plants need watering and other care activities, reducing the risk of neglecting their plant
 
-##  4. Scalability & Next Steps
-- *Phase 1 (Completed in Sprint):* Core architecture & functional proof of concept.
-- *Phase 2 (Future Scope):* API integration, automated test suites, production deployment.
+## 4. Scalability & Next Steps
+
+**Phase 1 (Completed in Sprint):** Developed the basic Plant Care Reminder Application with a user-friendly interface, user registration and login, plant information management, and MySQL database connectivity. Established the core architecture using HTML, CSS, JavaScript, Python Flask, and MySQL.
+
+**Phase 2 (Future Scope):** Enhance the application by implementing automated watering reminders, email or mobile notifications, plant-care recommendations, and sunlight and fertilization schedules. Additional improvements may include mobile-friendly design, automated testing, cloud deployment, and integration with weather APIs to provide more effective plant-care suggestions.
+
 ---
-Created during academic project.
+
+*Created during an academic project.*
