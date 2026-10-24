@@ -5,10 +5,11 @@
 ---
 
 ##  1. Overview & Problem Statement
-* *The Challenge:* [Describe the core bottleneck or problem in 2–3 sentences]
-* *Target Audience:* [Who this solution serves]
-* *Impact Metric:* [Expected percentage efficiency improvement or time saved]
+* *The Challenge:* People often forget essential plant-care activities, such as watering, providing adequate sunlight, and applying fertilizers, due to busy schedules and a lack of regular reminders. This can affect plant health and growth, making it difficult to maintain plants properly.
 
+* *Target Audience:* Plant owners, gardening enthusiasts, students, working professionals, and beginners who need an easy and efficient way to manage plant-care activities.
+
+* *Impact Metric:* Expected to improve plant-care scheduling efficiency by **30–40%** and reduce the time spent on manually tracking plant-care activities through automated reminders and centralized plant management.
 ---
 
 ##  2. Architecture & Solution Logic
