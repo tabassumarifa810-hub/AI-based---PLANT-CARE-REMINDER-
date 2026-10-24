@@ -13,15 +13,32 @@
 ---
 
 ##  2. Architecture & Solution Logic
-* *Concept:* [Explain the approach, system flow, or methodology]
-* *Tech / Framework Stack:* [e.g., Python / React / Figma / System Architecture / SQL]
 
---- ##` 3. Key Features & Prototype
- - [x] Feature 1: [Brief description]
- - [x] Feature 2: [Brief description]
- - [x] Feature 3: [Brief description]
+* *Concept:* The Plant Care Reminder Application is designed to help users take proper care of their plants by managing plant information and reminding them of essential care activities. Users can register, log in, add plant details, and maintain watering schedules. The application uses a database to store plant information and enables users to manage their plant-care activities efficiently.
 
+* *Tech / Framework Stack:*
+
+Frontend: HTML, CSS, JavaScript
+
+Backend: Python (Flask)
+
+Database: MySQL
+
+Development Tool: Visual Studio Code
+
+Database Management: MySQL Workbench
 ---
+## 3. Key Features & Prototype
+
+Feature 1: Plant Information Management
+Allows users to add, view, and manage plant details, including plant name, plant type, and watering frequency.
+
+Feature 2: Plant Care Scheduling
+Helps users organize watering schedules and keep track of important plant-care activities.
+
+Feature 3: Plant Care Reminders
+Helps users remember when their plants need watering and other care activities, reducing the risk of neglecting their plants.
+
 ##  4. Scalability & Next Steps
 - *Phase 1 (Completed in Sprint):* Core architecture & functional proof of concept.
 - *Phase 2 (Future Scope):* API integration, automated test suites, production deployment.
