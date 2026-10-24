@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantCare Dashboard</title>
+</head>
+<body>
+    <h1>🌱 My PlantCare Dashboard</h1>
+
+    <p>Welcome, {{ session["user_name"] }}!</p>
+
+    <a href="{{ url_for('add_plant') }}">➕ Add a Plant</a>
+    <a href="{{ url_for('logout') }}">Logout</a>
+
+    <h2>My Plants</h2>
+
+    {% if plants %}
+        {% for plant in plants %}
+            <div>
+                <h3>{{ plant["plant_name"] }}</h3>
+                <p>Species: {{ plant["species"] or "Not specified" }}</p>
+                <p>Water every {{ plant["watering_interval"] }} days</p>
+                <p>Last watered: {{ plant["last_watered"] or "Not recorded" }}</p>
+            </div>
+            <hr>
+        {% endfor %}
+    {% else %}
+        <p>You haven't added any plants yet. Click "Add a Plant" to get started!</p>
+    {% endif %}
+</body>
+</html>

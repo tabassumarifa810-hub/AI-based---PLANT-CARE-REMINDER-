@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Care Reminder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="brand" href="{{ url_for('home') }}">
+            <span class="brand-icon">♧</span>
+            Plant Care Reminder
+        </a>
+
+        <div class="nav-links">
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+        </div>
+
+        
+<div class="nav-actions">
+    <a class="login-link" href="{{ url_for('login') }}">Login</a>
+    <a class="nav-button" href="{{ url_for('login') }}">Get Started</a>
+</div>
+
+    </nav>
+
+    <main>
+        <section class="hero" id="about">
+            <div class="hero-content">
+                <h1>Never Forget to Care<br>for Your Plants</h1>
+
+                <p>
+                    Create custom schedules, track daily growth, and log watering,
+                    fertilizing, or pruning. Keep your home sanctuary lush, healthy,
+                    and thriving effortlessly.
+                </p>
+
+                
+<div class="hero-buttons">
+    <a class="button button-primary" href="{{ url_for('login') }}">Get Started Free</a>
+    <a class="button button-outline" href="#features">Watch Tutorial</a>
+</div>
+            </div>
+
+            <div class="hero-image">
+                <img src="{{ url_for('static', filename='plant-hero.png') }}"
+                     alt="Illustration of potted houseplants on a shelf">
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="section-heading">
+                <span>DESIGNED FOR PLANT LOVERS</span>
+                <h2>Care Features Made Simple</h2>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <div class="feature-icon pink">◷</div>
+                    <h3>Smart Reminders</h3>
+                    <p>Receive customized notifications for watering, fertilizing, misting, and turning your plants on schedule.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon peach">▦</div>
+                    <h3>Plant Tracking</h3>
+                    <p>Organize your collection by location, monitor health trends, and store detailed profiles for each species.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon cream">♧</div>
+                    <h3>Care History Logs</h3>
+                    <p>Keep track of growth milestones, take notes of season changes, and save diagnostic images over time.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span>© 2026 Plant Care Reminder. All rights reserved.</span>
+        <div>
+            <a href="#about">Privacy Policy</a>
+            <a href="#about">Terms of Service</a>
+            <a href="#about">Support</a>
+        </div>
+    </footer>
+
+</body>
+</html>
