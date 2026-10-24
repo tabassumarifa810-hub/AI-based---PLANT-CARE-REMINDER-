@@ -1,4 +1,4 @@
-# [Project Title]
+# AI BASED PLANT CARE REMINDER
 
 > *Contributors:* [@GitHubHandle1](link), [@GitHubHandle2](link), [@GitHubHandle3](link)  
 
